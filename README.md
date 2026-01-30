@@ -3,6 +3,13 @@
 
 MixSplitR helps you organize your digitized vinyl and CD collection. It works with both recorded mixes and individual tracks, intelligently detecting whether your files are mixes or single songs. For mixes, it splits them into individual tracks, then identifies each song using audio fingerprinting, and organizes everything with full metadata and artwork. Use it to split and tag your personal recordings for easy library management.
 
+## Go from this:
+<img width="2556" height="1439" alt="Screenshot 2026-01-29 193015" src="https://github.com/user-attachments/assets/5deda5db-578d-4540-95d0-176dd23cd842" />
+
+
+## To this!
+<img width="2559" height="1439" alt="Screenshot 2026-01-29 191743" src="https://github.com/user-attachments/assets/493deb46-e393-4cdf-b8f8-c86b51c5432f" />
+
 DOWNLOAD LATEST RELEASES: https://github.com/chefkjd/MixSplitR/releases/tag/Executables
 
 #########IMPORTANT#########
