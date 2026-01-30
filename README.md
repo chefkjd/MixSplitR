@@ -6,17 +6,18 @@ MixSplitR helps you organize your digitized vinyl and CD collection. It works wi
 ## Go from this:
 <img width="2556" height="1439" alt="Screenshot 2026-01-29 193015" src="https://github.com/user-attachments/assets/5deda5db-578d-4540-95d0-176dd23cd842" />
 
-
 ## To this!
 <img width="2559" height="1439" alt="Screenshot 2026-01-29 191743" src="https://github.com/user-attachments/assets/493deb46-e393-4cdf-b8f8-c86b51c5432f" />
 
-DOWNLOAD LATEST RELEASES: https://github.com/chefkjd/MixSplitR/releases/tag/Executables
+DOWNLOAD LATEST RELEASES: https://github.com/chefkjd/MixSplitR/releases
 
-#########IMPORTANT#########
+#########IMPORTANT##########
 
 **For Personal Use Only**: This tool is designed to help you organize and archive your personal music collection from digitized vinyl, CDs, and recordings you own or have legal access to.
 
 **Technical Requirement**: The songs need to have 2 seconds of silence in between them for the tool to recognize them as separate tracks. Fully mixed DJ performances with seamless transitions will not work properly.
+
+**KEEP YOUR API KEYS PRIVATE**: After first run, a `config.json` file is created containing your ACRCloud credentials. **DO NOT share this file, upload it to public repositories (GitHub, etc.), or post it online.** Anyone with access to your credentials can use your API quota. Keep `config.json` private and secure. If you accidentally expose it, regenerate your API keys in the ACRCloud console immediately. **The `config.json` file must remain in the same folder as the MixSplitR executable** - if you move the program to a new location, move the config file with it.
 
 ---
 
@@ -88,7 +89,8 @@ ACRCloud provides the music recognition service that identifies your tracks. Her
      - **Host**: Paste your Host value (e.g., `identify-us-west-2.acrcloud.com`)
      - **Access Key**: Paste your Access Key
      - **Secret Key**: Paste your Access Secret
-   - These credentials are saved in `config.json` and you won't need to enter them again
+   - These credentials are saved in `config.json` in the same folder as the executable
+   - **IMPORTANT**: Keep this `config.json` file private and in the same folder as MixSplitR.exe - the program needs it to run
 
 2. **Processing Your Files**
    - The program will automatically detect all supported audio files in the folder
@@ -118,7 +120,7 @@ ACRCloud provides the music recognition service that identifies your tracks. Her
 ```
 Your Folder/
 ├── MixSplitR.exe           ← The program
-├── config.json             ← Your API keys (created on first run)
+├── config.json             ← Your API keys (KEEP PRIVATE - must stay with the .exe)
 ├── YourMix.wav             ← Your input files (any supported format)
 ├── AnotherMix.flac
 ├── Track.mp3
@@ -176,6 +178,12 @@ Your Folder/
 - Place them in the same folder as MixSplitR.exe
 - Check that files aren't corrupted
 
+### Program asks for API credentials again
+- The `config.json` file may be missing from the program folder
+- Make sure `config.json` is in the same folder as MixSplitR.exe
+- If you moved the program, move the `config.json` file too
+- If the file was deleted, you'll need to re-enter your credentials (they'll be saved again)
+
 ### "API Error" or "Recognition Failed"
 - Check your ACRCloud credentials in `config.json`
 - Verify you haven't exceeded your monthly quota
@@ -226,17 +234,23 @@ Your Folder/
 
 1. Place audio files from your personal collection in the MixSplitR folder (supports WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, OPUS)
 2. Run MixSplitR.exe
-3. Enter ACRCloud credentials (first run only)
+3. Enter ACRCloud credentials on first run only
+   - A `config.json` file will be created in the same folder as the executable with your API keys
+   - **This file must stay in the same folder as MixSplitR.exe** - the program needs it to function
+   - **Keep this file private** - never share it or upload it to public repositories
+   - These credentials are stored locally and reused for all future runs
 4. Wait for Phase 1 (smart detection & splitting) and Phase 2 (identification & organization)
 5. Find your organized music library in `My_Music_Library` folder
 6. Enjoy your perfectly tagged personal music collection!
+
+**Security Note**: If you need to move MixSplitR to a different computer or folder, you **must** copy the `config.json` file along with the executable - they must remain in the same folder for the program to work. Just remember to keep the config file secure and never share it publicly!
 
 ---
 
 ##  Version History
 
 **v6.3.1** - Current version
--added multi-format support (WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, OPUS)
+- Added multi-format support (WAV, FLAC, MP3, M4A, OGG, AAC, WMA, AIFF, OPUS)
 
 **v6.3**
 - Smart track detection (automatically detects single tracks vs mixes)
