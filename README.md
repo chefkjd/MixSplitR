@@ -21,9 +21,7 @@ MixSplitR helps you organize your digitized vinyl and CD collection. It works wi
 
 
 
- ## #########IMPORTANT##########
-
-**For Personal Use Only**: This tool is designed to help you organize and archive your personal music collection from digitized vinyl, CDs, and recordings you own or have legal access to.
+ ## X#X#X#X# IMPORTANT YOU NEED TO READ THIS X#X#X#X#
 
 **Technical Requirement**: The songs need to have 2 seconds of silence in between them for the tool to recognize them as separate tracks. Fully mixed DJ performances with seamless transitions will not work properly.
 
