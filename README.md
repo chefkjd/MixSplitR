@@ -9,9 +9,19 @@ MixSplitR helps you organize your digitized vinyl and CD collection. It works wi
 ## To this!
 <img width="2559" height="1439" alt="Screenshot 2026-01-29 191743" src="https://github.com/user-attachments/assets/493deb46-e393-4cdf-b8f8-c86b51c5432f" />
 
-DOWNLOAD LATEST RELEASES: https://github.com/chefkjd/MixSplitR/releases
 
-#########IMPORTANT##########
+
+
+
+
+
+   ## DOWNLOAD LATEST RELEASES: https://github.com/chefkjd/MixSplitR/releases
+
+
+
+
+
+ ## #########IMPORTANT##########
 
 **For Personal Use Only**: This tool is designed to help you organize and archive your personal music collection from digitized vinyl, CDs, and recordings you own or have legal access to.
 
