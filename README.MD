@@ -12,6 +12,8 @@ It supports:
 - Long recordings/mixes that need splitting
 
 ---
+### [Downloads](https://github.com/chefkjd/MixSplitR/releases)
+
 
 ## v7.1 Highlights
 
@@ -127,17 +129,18 @@ It supports:
 - Direct Mode output format selector (same format family as apply flow)
 
 
-##Turn this:
+## Turn this:
 
 <img width="2408" height="1644" alt="Image" src="https://github.com/user-attachments/assets/0a7f305b-87d1-47ef-94a1-d9210ec6092f" />
 
 
 
-##Into this!
+## Into this!
 
 <img width="2688" height="943" alt="Image" src="https://github.com/user-attachments/assets/5a8af601-7243-4572-987e-f3b20d59142f" />
 
-##Manually split or use assisted mode to find the splits for you, leaving only for you to review and edit! Supports CUE sheets in multiple formats!
+## Manually split or use assisted mode to find the splits for you, leaving only for you to review and edit!
+     - Supports CUE sheets in multiple formats!
 
 
 <img width="1672" height="1258" alt="Image" src="https://github.com/user-attachments/assets/edea7387-a109-484e-a7fb-8c02e93d3648" />
