@@ -1,4 +1,4 @@
-![Mixsplitr Header] (Screenshots/Screenshot (16).png)
+![Mixsplitr Header](Screenshots/Screenshot (16).png)
 
 # MixSplitR v7.1
 ### Mix Archival Tool by KJD
