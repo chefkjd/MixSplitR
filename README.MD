@@ -1,4 +1,4 @@
-![Mixsplitr Header](Screenshots/Screenshot (16).png)
+<img width="1052" height="457" alt="Image" src="https://github.com/user-attachments/assets/31535288-9a6c-472a-bbb7-2791e350f19b" />
 
 # MixSplitR v7.1
 ### Mix Archival Tool by KJD
