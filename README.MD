@@ -1,7 +1,6 @@
 # MixSplitR v7.1
 ### Mix Archival Tool by KJD
 
-![alt text] C:\Users\Kyle\Pictures\Screenshots\Screenshot (16).png
 
 MixSplitR helps you record and organize digitized vinyl, CD, and mixes into a clean music library with split tracks, metadata, artwork, and structured folders.
 
