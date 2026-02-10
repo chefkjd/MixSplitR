@@ -11,6 +11,16 @@ It supports:
 - Individual tracks
 - Long recordings/mixes that need splitting
 
+
+## Turn this:
+
+<img width="2408" height="1644" alt="Image" src="https://github.com/user-attachments/assets/0a7f305b-87d1-47ef-94a1-d9210ec6092f" />
+
+## Into this!
+
+
+<img width="2688" height="943" alt="Image" src="https://github.com/user-attachments/assets/5a8af601-7243-4572-987e-f3b20d59142f" />
+
 ---
 ### [Download](https://github.com/chefkjd/MixSplitR/releases)
 
@@ -131,16 +141,6 @@ It supports:
 - Multi-format export targets in apply flow (FLAC, ALAC, WAV, AIFF, MP3, AAC, OGG, OPUS)
 - Direct Mode output format selector (same format family as apply flow)
 
-
-## Turn this:
-
-<img width="2408" height="1644" alt="Image" src="https://github.com/user-attachments/assets/0a7f305b-87d1-47ef-94a1-d9210ec6092f" />
-
-
-
-## Into this!
-
-<img width="2688" height="943" alt="Image" src="https://github.com/user-attachments/assets/5a8af601-7243-4572-987e-f3b20d59142f" />
 
 ## Manually split or use assisted mode to find the splits for you, leaving only for you to review and edit!
      - Supports CUE sheets in multiple formats!
