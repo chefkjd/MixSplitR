@@ -174,15 +174,8 @@ It supports:
 ### Identification
 - ACRCloud account (if using ACRCloud mode)
 - AcoustID key recommended for MusicBrainz-only fingerprinting
-- `chromaprint`/`fpcalc` required for AcoustID fingerprint flow
 - Last.fm API key optional (better genre/tag enrichment)
-
-### Runtime
-- FFmpeg/FFprobe available (bundled in release builds)
-- Windows source runs may require: `pip install windows-curses` (for interactive terminal menus)
-
-### Recording (source runs)
-- Windows/macOS system audio recording requires recording dependencies (`soundcard`, `soundfile`, and related audio stack)
+- On Mac it is required to install blackhole for sound loopback. The program will walk you through the steps if it detects no blackhole.
 
 ---
 
