@@ -1,4 +1,4 @@
-<img width="1052" height="457" alt="Image" src="https://github.com/user-attachments/assets/31535288-9a6c-472a-bbb7-2791e350f19b" />
+<img width="655" height="326" alt="Image" src="https://github.com/user-attachments/assets/713d9441-9861-4872-a606-6525a4aa1e49" />
 
 # MixSplitR v7.1
 ### Mix Archival Tool by KJD
@@ -229,3 +229,6 @@ Default music output path:
 - ACRCloud: <https://console.acrcloud.com>
 - AcoustID: <https://acoustid.org/api-key>
 - Last.fm API: <https://www.last.fm/api/account/create>
+
+
+<img width="1052" height="457" alt="Image" src="https://github.com/user-attachments/assets/31535288-9a6c-472a-bbb7-2791e350f19b" />
