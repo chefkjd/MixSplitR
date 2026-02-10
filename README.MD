@@ -22,7 +22,9 @@ It supports:
 <img width="2688" height="943" alt="Image" src="https://github.com/user-attachments/assets/5a8af601-7243-4572-987e-f3b20d59142f" />
 
 ---
-### [Download](https://github.com/chefkjd/MixSplitR/releases)
+# [Download](https://github.com/chefkjd/MixSplitR/releases)
+
+## [Did I save you some time? Support development here, It's much appreciated!](https://ko-fi.com/mixsplitr)
 
 
 ## v7.1 Highlights
