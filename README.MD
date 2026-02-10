@@ -217,7 +217,7 @@ Default music output path:
 
 ---
 
-## [Did I save you some time? Help me pay for my large caffeine intake!](https://ko-fi.com/mixsplitr)
+## [Did I save you some time? Help me fund my large caffeine intake!](https://ko-fi.com/mixsplitr)
 
 ## Privacy and Intended Use
 
