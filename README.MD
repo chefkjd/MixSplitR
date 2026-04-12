@@ -1,226 +1,123 @@
+# MixSplitR v8.0
+### Desktop app for turning long recordings into clean, tagged tracks
 
-<img width="1052" height="457" alt="Image" src="https://github.com/user-attachments/assets/31535288-9a6c-472a-bbb7-2791e350f19b" />
+MixSplitR 8.0 is a huge user interface update with many improvements and features added since 7.1
 
-# MixSplitR v7.1
-### Mix Archival Tool by KJD
+If you have a vinyl rip, cassette transfer, radio recording, DJ mix, live set, CD rip, or just one giant audio file that really should have been separate tracks in the first place, MixSplitR helps you split it up, figure out what songs are there, clean up the track info, and export something that actually fits into a real music library.
 
+It also can be used like a swiss army knife, every tool can be used individually, with the editor designed for bulk editing multiple files.
 
-MixSplitR helps you record and organize digitized vinyl, CD, and mixes into a clean music library with split tracks, metadata, artwork, and structured folders.
+## [Download](https://github.com/chefkjd/MixSplitR/releases)
 
-It supports:
-- Direct system audio capture 
-- Individual tracks
-- Long recordings/mixes that need splitting
+## Turn This
+<img width="2343" height="1312" alt="Image" src="https://github.com/user-attachments/assets/b59bb431-41ae-4e56-9e68-4fd17959d1fa" />
 
+## Into This
+<img width="2525" height="1375" alt="Image" src="https://github.com/user-attachments/assets/86a5f2ba-b90c-4e86-a916-068bdf2c75fd" />
 
-## Turn this:
+## What MixSplitR Does
 
-<img width="2408" height="1644" alt="Image" src="https://github.com/user-attachments/assets/0a7f305b-87d1-47ef-94a1-d9210ec6092f" />
+- Splits long recordings into separate tracks
+- Helps name tracks and fill in artist, title, album, genre, BPM, and artwork when available
+- Lets you fix anything that looks wrong before export
+- Can make timestamps and tracklists for mixes when you do not want separate audio files
+- Keeps related jobs in one place, including recording, CD ripping, and library cleanup
 
-## Into this!
+## What's New in 8.0
 
+MixSplitR 8.0 is a full visual desktop-app overhaul with new features and expansions to existing features.
 
-<img width="2688" height="943" alt="Image" src="https://github.com/user-attachments/assets/5a8af601-7243-4572-987e-f3b20d59142f" />
+- The app is now built around a proper desktop interface instead of the older command line menu-heavy flow
+- Waveform editing and review stay inside the app instead of bouncing out to a browser
+- There is now a dedicated Timestamping mode for building tracklists from long mixes
+- CD ripping is built into the app
+- Recording is much stronger now, especially on Windows
+- Artist cleanup and folder organization are smarter than before
+- Releases are packaged more like regular desktop software now, with a macOS DMG and a Windows installer
+- 8.0 switches to a default ID mode of MusicBrainz and AcoustID with Shazam instead of ACRcloud to keep accuracy but free identification.
 
----
-# [Download](https://github.com/chefkjd/MixSplitR/releases)
+## If You Used 7.1 Already
 
+8.0 keeps the core idea of 7.1, but the experience is much cleaner now.
 
+Recording, session history, track review, preview mode, and multi-source track ID are still here. The big change is that they now live inside a desktop app that feels more like one connected flow instead of a bunch of separate steps. I've worked hard on simplifying the process and eventually aim to simplify it more with user feedback.
 
+## How It Works
 
-## v7.1 Highlights
+1. Load a long recording into `Splitter`.
+2. Choose `Split Only`, `Split and Identify`, or `Timestamping`.
+3. If you are splitting audio, choose `Full Preview` or `Light Preview`.
+4. Let MixSplitR find likely split points, or place them yourself.
+5. If you want, run track ID and tag lookup.
+6. Review everything in `Editor`.
+7. Export finished tracks, or save timestamps and a tracklist instead.
 
-### AcoustID support!
-- Use acoustID to replace the need for ACRcloud or combine both for an expansive catalog of music identification 
+`Recorder` and `CD Ripping` feed into that same flow, and `Session History` lets you go back and review older runs later.
 
-### End-to-End Workflow (Now Includes Recording)
-- Built-in system audio recording on Windows/macOS
-- Record, split, identify, review, and export in one tool
-- Makes MixSplitR a full capture-to-library workflow
+## Great For
 
-### Album Search + Normalization + Deep Scan
-- Album search toggle for release-focused matching/grouping
-- Artist normalization toggle for cleaner folders and filenames
-  - Collab/feat credits can be moved into title metadata
-- Auto Deep Scan mode for recursive subfolder discovery
+- Vinyl and cassette transfers
+- Long DJ mixes
+- Radio and stream captures
+- Live recordings
+- CD rips that still need tags and organization
+- Existing music folders that need cleanup
 
-### Session History (Beta) Expansion
-- Session-first history workflow
-- Compare two sessions
-- Reorganize files from session metadata
-- Rollback with dry-run preview before delete
-- Import/export session records (`.json`) (drag-drop path supported)
-- Safe session apply to a target folder (no overwrite/no delete)
-- Delete session records with safety checks (history JSON only)
-- Rollback apply writes a new rollback session record for audit trail
+## Also Included
 
-### Auditable Processing with Rollback
-- Session manifests capture processing details and outputs
-- History is designed for audit/review, not just quick reruns
-- Rollback includes preview-first safety before apply
+- `Recorder` for capturing system audio or app audio
+- `CD Ripping` for pulling discs straight into the app
+- `Editor` for fixing tags before final export, editing individual files, or for bulk file tag editing
+- `Session History` for reviewing, comparing, reorganizing, or rolling back older runs
 
-### Unsaved Preview Workflow
-- `Finish Unsaved Preview` from main menu
-- `Clear Unsaved Preview Data` option
-- Exit flow that lets you keep or clear unsaved preview work
+<img width="2547" height="1358" alt="Image" src="https://github.com/user-attachments/assets/80ef8256-14ec-44f0-8578-14f24ef2a328" />
 
-### In-Tool Track Preview and Editing
-- Preview track audio directly in the editor
-- Edit track metadata before file creation
-- Convert unidentified tracks to identified inside the app
-- MusicBrainz search assist to label individual tracks quickly
-- Import tracklists/CUE data to speed up labeling
-- Supports simple tracklist formats (e.g., `MM:SS Artist - Title`, `HH:MM:SS Artist - Title (Album)`)
+<img width="2514" height="1362" alt="Image" src="https://github.com/user-attachments/assets/f53cec9c-1e69-4626-b395-3b0e13feffcd" />
 
-### Multi-Format Export + Splitter Input Support
-- Multi-file-type export options (lossless + lossy profiles)
-- Waveform splitter supports common audio formats and converts internally for waveform playback
+## Track ID and Tag Help
 
-### Portable Startup Scan Mode
-- New first-run option and Settings toggle:
-  - `Portable Startup Scan (ON/OFF)`
-- ON: startup scans audio next to app/script
-- OFF: startup uses your Music folder
+MixSplitR can use a few different sources to help identify tracks and fill in missing info.
 
-### Expanded Identification Modes and Sources
-- `ACRCloud + MusicBrainz`
-- `MusicBrainz only` mode for users who do not want paid API dependency
-- AcoustID support for MusicBrainz fingerprint matching
-- Shazam integration as an additional identification path
-- `Dual Mode` (runs multiple backends, picks best-confidence result)
-- Better coverage for difficult/underground tracks via multi-source enrichment
+- `ACRCloud` is still the higher-accuracy option if you want the strongest lookup path
+- `AcoustID` plus `MusicBrainz` is a strong free option.
+- `Shazam` can help on harder tracks and mixes, also for free
+- `iTunes`, `Deezer`, and `Last.fm` can help fill in extra details like genre, tags, and artwork
 
-### Fingerprint Accuracy Tuning
-- Configurable fingerprint sample window (`8-45s`, default `12s`)
-- Applied to ACRCloud, Dual mode, and Shazam sampling paths
-- Lets you trade speed for better hit rate on difficult tracks
+You do not need every service turned on. Use the ones that fit your needs.
 
-### Improved Settings and Directory Controls
-- Album search toggle
-- Artist normalization toggle (collab credits moved to title)
-- Auto deep scan toggle
-- Portable startup scan toggle
-- Directory settings for:
-  - Output folder
-  - Recording folder
-  - Session History folder
+## Smarter Cleanup and Export
 
-### One-Click / Direct Mode Improvements
-- Direct Mode now asks for output format before export (instead of silently forcing one format)
-- Selected output format is saved in session/manifest config snapshots
+- Better artist cleanup with `Off`, `Collab Only`, and `Smart` modes
+- Better duplicate handling, including a keep-best-quality option
+- Can keep the original file type for simple passthrough cases when possible
+- Timestamping mode for mixes where you want a tracklist instead of split files
+- Review before export so you can fix things before anything gets written out
 
-### Better Data Handling and Storage Defaults
-- Config, cache, and session data are kept in a dedicated app-data folder
-  - Windows: `%APPDATA%\\MixSplitR`
-  - macOS: `~/Library/Application Support/MixSplitR`
-  - Linux: `~/.local/share/MixSplitR`
-- Music output defaults to a nested library under your Music folder:
-  - `~/Music/MixSplitR Library` (or platform equivalent)
+<img width="2549" height="1360" alt="Image" src="https://github.com/user-attachments/assets/c61767a3-95a6-4232-82eb-c82655add590" />
 
----
+<img width="1196" height="776" alt="Image" src="https://github.com/user-attachments/assets/0ea7facf-7425-4cf2-af13-d01d5181a249" />
 
-## Core Features
-
-- Automatic split detection for mixes with silence gaps
-- Manual visual splitter for seamless DJ mixes
-- Assisted splitting (auto-detect + manual review)
-- Interactive Track Editor:
-  - Audio preview
-  - Manual metadata correction
-  - Convert unidentified tracks to identified
-  - MusicBrainz text-search assist for difficult IDs
-  - Tracklist/CUE import for faster bulk labeling
-  - Simple timestamp format import support (`MM:SS`, `HH:MM:SS`, optional album text)
-  - Filter views (missing genre/BPM, identified/unidentified)
-- Preview/Apply workflow:
-  - Full Preview (cached chunks + playback/edit support)
-  - Light Preview (lower disk usage, re-splits on apply)
-- Metadata enrichment from multiple sources (MusicBrainz, iTunes, Deezer, Last.fm)
-- Configurable fingerprint sample size (`8-45s`) for identification tuning
-- Local BPM detection fallback via `librosa`
-- Artist-folder organization and metadata tagging
-- System audio recording flow (Windows/macOS)
-- Large-file streaming mode (FFmpeg-based) for memory-heavy files
-- Multi-format export targets in apply flow (FLAC, ALAC, WAV, AIFF, MP3, AAC, OGG, OPUS)
-- Direct Mode output format selector (same format family as apply flow)
-
-
-## Manually split or use assisted mode to find the splits for you, leaving only for you to review and edit!
-     - Supports CUE sheets in multiple formats!
-
-
-<img width="1672" height="1258" alt="Image" src="https://github.com/user-attachments/assets/edea7387-a109-484e-a7fb-8c02e93d3648" />
-
----
+<img width="2547" height="1368" alt="Image" src="https://github.com/user-attachments/assets/055c80cc-025e-4089-8f03-62e835205750" />
 
 ## Supported Formats
 
 ### Input
+
 `WAV`, `FLAC`, `MP3`, `M4A`, `OGG`, `AAC`, `WMA`, `AIFF`, `OPUS`
 
-### Output (Apply mode)
-- FLAC
-- ALAC (`.m4a`)
-- WAV
-- AIFF
-- MP3 (`320k`, `256k`, `192k`)
-- AAC (`256k`)
-- OGG Vorbis (`~500k`, `~320k`)
-- OPUS (`256k`)
+### Output
 
----
+`FLAC`, `ALAC`, `WAV`, `AIFF`, `MP3`, `AAC`, `OGG Vorbis`, `OPUS`
 
-## Requirements
+## A Few Notes
 
-### Identification
-- ACRCloud account (if using ACRCloud mode)
-- AcoustID key recommended for MusicBrainz-only fingerprinting
-- Last.fm API key optional (better genre/tag enrichment)
-- On Mac it is required to install blackhole for sound loopback. The program will walk you through the steps if it detects no blackhole.
-
----
-
-## Quick Start
-
-1. Launch MixSplitR.
-2. On first run, choose identification mode.
-3. Choose startup scan mode (portable or Music folder).
-4. Load audio files/folders (drag-drop supported).
-5. Run `Preview Mode` (recommended) or `Direct Mode`.
-6. In Preview Mode, choose split mode: Automatic, Manual, or Assisted.
-7. Review in Track Editor, then apply.
-8. Use Session History (Beta) for compare/restore/import/export/delete workflows.
-
----
-
-## Config and Data Paths
-
-MixSplitR stores config/cache/session data in platform app-data folders:
-
-- Windows: `%APPDATA%\\MixSplitR`
-- macOS: `~/Library/Application Support/MixSplitR`
-- Linux: `~/.local/share/MixSplitR`
-
-Typical files/folders:
-- `config.json`
-- `mixsplitr_cache.json`
-- `manifests/`
-
-Default music output path:
-- `~/Music/MixSplitR Library` (unless changed in Settings)
-
----
-
-## [Did I save you some time? Help me fund my large caffeine intake!](https://ko-fi.com/mixsplitr)
-
-## Privacy and Intended Use
-
-- For personal, non-commercial use only
-- Keep API keys private (`config.json` contains credentials)
-- Do not upload credentials to public repos
-- Respect copyright law and only process audio you have legal rights to use
-
----
+- Windows background capture needs a virtual cable tool such as VB-Cable
+    -side note on this, windows 11 seems to have a new bug that can cause silence when switching audio sources, restarting audio services seems to fix this problem, so ive included a button to do that! Its an inelegant fix for a stupid problem)
+- macOS loopback recording still needs BlackHole or something similar
+- ACRCloud is optional, not required, but offers the most accurate and expansive ID library.
+- AcoustID is recommended if you want a strong free identification setup
+- Keep your API keys private
+- What you choose to do with this software is on you. Please use responsibly.
 
 ## Links
 
@@ -230,5 +127,3 @@ Default music output path:
 - ACRCloud: <https://console.acrcloud.com>
 - AcoustID: <https://acoustid.org/api-key>
 - Last.fm API: <https://www.last.fm/api/account/create>
-
-
