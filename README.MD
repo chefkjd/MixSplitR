@@ -1,6 +1,7 @@
 <img width="3844" height="659" alt="Image" src="https://github.com/user-attachments/assets/7fb4a295-f68e-464c-bf44-301cb4bbbd69" />
 
 # MixSplitR v8.0
+Coming soon!
 
 ### Desktop app for turning long recordings into clean, tagged tracks
 
