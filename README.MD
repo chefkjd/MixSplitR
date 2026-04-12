@@ -9,10 +9,13 @@ It also can be used like a swiss army knife, every tool can be used individually
 
 ## [Download](https://github.com/chefkjd/MixSplitR/releases)
 
+
 ## Turn This
+
 <img width="2343" height="1312" alt="Image" src="https://github.com/user-attachments/assets/b59bb431-41ae-4e56-9e68-4fd17959d1fa" />
 
-## Into This
+## Into This!
+
 <img width="2525" height="1375" alt="Image" src="https://github.com/user-attachments/assets/86a5f2ba-b90c-4e86-a916-068bdf2c75fd" />
 
 ## What MixSplitR Does
@@ -95,7 +98,11 @@ You do not need every service turned on. Use the ones that fit your needs.
 
 <img width="2549" height="1360" alt="Image" src="https://github.com/user-attachments/assets/c61767a3-95a6-4232-82eb-c82655add590" />
 
+
+
 <img width="1196" height="776" alt="Image" src="https://github.com/user-attachments/assets/0ea7facf-7425-4cf2-af13-d01d5181a249" />
+
+
 
 <img width="2547" height="1368" alt="Image" src="https://github.com/user-attachments/assets/055c80cc-025e-4089-8f03-62e835205750" />
 
@@ -112,7 +119,7 @@ You do not need every service turned on. Use the ones that fit your needs.
 ## A Few Notes
 
 - Windows background capture needs a virtual cable tool such as VB-Cable
-    -side note on this, windows 11 seems to have a new bug that can cause silence when switching audio sources, restarting audio services seems to fix this problem, so ive included a button to do that! Its an inelegant fix for a stupid problem)
+    -side note on this, windows 11 seems to have a new bug that can cause silence when switching audio sources, restarting audio services seems to fix this problem, so ive included a button to do that. (It's an inelegant fix for a stupid problem)
 - macOS loopback recording still needs BlackHole or something similar
 - ACRCloud is optional, not required, but offers the most accurate and expansive ID library.
 - AcoustID is recommended if you want a strong free identification setup
