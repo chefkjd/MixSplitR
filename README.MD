@@ -2,7 +2,7 @@
 
 # MixSplitR v8.0
 
-### A simple yet powerfull app for turning long recordings into clean, tagged tracks
+### A simple yet powerful app for turning long recordings into clean, tagged tracks
 
 MixSplitR 8.0 is a huge user interface update with many improvements and features added since 7.1
 
