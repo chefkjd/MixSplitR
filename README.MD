@@ -1,9 +1,8 @@
 <img width="3844" height="659" alt="Image" src="https://github.com/user-attachments/assets/7fb4a295-f68e-464c-bf44-301cb4bbbd69" />
 
 # MixSplitR v8.0
-Coming soon!
 
-### Desktop app for turning long recordings into clean, tagged tracks
+### A simple yet powerfull app for turning long recordings into clean, tagged tracks
 
 MixSplitR 8.0 is a huge user interface update with many improvements and features added since 7.1
 
