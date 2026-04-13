@@ -1,0 +1,61 @@
+# MixSplitR macOS x86_64 essentia-compatible requirements
+#
+# Goal:
+# - Keep Intel/Rosetta build compatible with Essentia by pinning NumPy 1.26.x.
+# - Keep package versions as close as possible to arm64 parity set.
+# - Avoid shazamio's hard numpy>=2.2 resolver constraint on x86_64.
+#
+# Notes:
+# - setup_mac_dual_venvs.sh installs shazamio/shazamio-core for x86_64 with
+#   --no-deps after this file is installed.
+# - If Shazam import still fails, the app will run with Shazam feature disabled.
+
+# Core UI and runtime
+PySide6==6.6.3.1
+# macOS native bridge for sidebar/content vibrancy (AppKit NSVisualEffectView)
+pyobjc-core
+pyobjc-framework-Cocoa
+pydub==0.25.1
+requests==2.32.5
+mutagen==1.47.0
+tqdm==4.67.3
+
+# Music identification
+musicbrainzngs==0.7.1
+pyacoustid==1.3.0
+discid==1.3.0
+
+# Async stack and shazamio transitive requirements
+aiohttp==3.10.11
+aiosignal==1.3.2
+frozenlist==1.5.0
+multidict==6.1.0
+yarl==1.15.2
+async_timeout==5.0.1
+attrs==24.2.0
+charset_normalizer==3.4.0
+aiofiles==23.2.1
+aiohttp-retry==2.9.1
+anyio==4.12.1
+dataclass-factory==2.16
+pydantic==2.12.5
+pydantic-core==2.41.5
+annotated-types==0.7.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+shazamio-core==1.1.2
+
+# Audio analysis: NumPy 1.26 for Essentia compatibility on x86_64
+numpy==1.26.4
+scipy==1.15.3
+numba==0.62.1
+llvmlite==0.45.1
+librosa==0.11.0
+soundfile==0.13.1
+soundcard==0.4.5
+sounddevice==0.5.5
+
+# CLI/runtime support
+prompt_toolkit==3.0.48
+wcwidth==0.2.13
+psutil==6.1.0
