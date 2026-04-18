@@ -25,9 +25,8 @@ It also can be used like a swiss army knife, every tool can be used individually
 
 - Splits long recordings into separate tracks
 - Helps name tracks and fill in artist, title, album, genre, BPM, and artwork when available
-- Lets you fix anything that looks wrong before export
+- Lets you fix anything that looks wrong before exporting
 - Can make timestamps and tracklists for mixes when you do not want separate audio files
-- Keeps related jobs in one place, including recording, CD ripping, and library cleanup
 
 ## What's New in 8.0
 
@@ -36,8 +35,8 @@ MixSplitR 8.0 is a full visual desktop-app overhaul with new features and expans
 - The app is now built around a proper desktop interface instead of the older command line menu-heavy flow
 - Waveform editing and review stay inside the app instead of bouncing out to a browser
 - There is now a dedicated Timestamping mode for building tracklists from long mixes
-- CD ripping is built into the app
-- Recording is much stronger now, especially on Windows
+- CD ripping is now added
+- Recording is much more robust now, especially on Windows
 - Artist cleanup and folder organization are smarter than before
 - Releases are packaged more like regular desktop software now, with a macOS DMG and a Windows installer
 - 8.0 switches to a default ID mode of MusicBrainz and AcoustID with Shazam instead of ACRcloud to keep accuracy but free identification.
